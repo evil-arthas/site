@@ -1,0 +1,84 @@
+.header {
+  padding: 20px 0;
+  box-shadow: 0px -2px 0px 0px #EFF2F2 inset;
+}
+.container {
+  margin: 0 auto;
+  padding: 0 14px;
+  min-width: 1024px;
+  max-width: 1228px; 
+  /*max-width=width+padding*/
+}
+.row {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__logo {
+  width: 51px;
+  height: 36px;
+  margin-right: 51px;
+  transition: .25s;
+}
+.header__logo:hover {
+  transform: scale(1.05); 
+}
+.header__logo img {
+  width: 100%;
+  height: 100%;
+}
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  flex: 1 1;
+  flex-flow: row nowrap;
+}
+.header__button-burger {
+  display: none;
+}
+.header__list {
+  list-style: none;
+  display: inline-flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  flex: 1;
+  max-width: 704px;
+  gap: 1px;
+  justify-content: space-between;
+  margin-right: 4px;
+}
+.header__button-arrow {
+  display: inline-flex;
+  align-items: end;
+  gap: 8px;
+  font-weight: 500;
+}
+.header a {
+  font-weight: 500;
+  transition: .25s;
+}
+.header a:hover {
+  color: #03B2A5;
+}
+.header__button-arrow:hover{
+  color:#03B2A5;
+}
+/* color-change with js + svg */
+.button-psycho{
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.header__button-psycho {
+  background-color:#E3F5F5;
+  padding: 14px 20px;
+  color: #03B2A5;
+}
+
+.button-psycho:hover {
+  transform: scale(1.01);
+}
+.button-psycho:active {
+  background-color: azure ;
+}

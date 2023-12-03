@@ -1,0 +1,193 @@
+@media (min-width:320px) {
+  body {
+    background: none;
+  }
+  .header {
+    padding: 8px 0;
+  }
+  .container {
+    min-width: 320px;
+    max-width: 414px;
+    padding: 0 8px;
+  }
+  .header__list {
+    display: none;
+  }
+  .header__button-psycho {
+    display: none;
+  }
+  .header__button-burger {
+    display: block;
+  }
+  .header__nav {
+    justify-content: flex-end;
+  }
+  .main-and-aside-flex-container {
+    justify-content: center;
+  }
+  .aside {
+    justify-content: center;
+  }
+  .main-signature {
+    margin: 0;
+  }
+  .main {
+    flex: 1 0 288px;
+    gap: 16px;
+  }
+  .main-header {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .table-of-contents__list {
+    min-width: 282px;
+  }
+  .table-of-contents__list ul {
+    display: none;
+  }
+  .unique-paragraph {
+    padding: 0;
+  }
+  .content-w-img-wrapper {
+    flex-flow: column nowrap;
+    justify-content: unset;
+    gap: 16px;
+  } 
+  .txt2-img2-wrapper {
+    flex-flow: row wrap;
+  }
+  .content-card {
+    max-width: none;
+  }
+  .last-container {
+    display: none;
+  }
+  .bottom-links {
+    display: none;
+  }
+  .aside-card {
+    flex: 1 0 282px;
+  }
+  .wrapper-for-img-grandmom img {
+    object-fit: cover;
+  }
+}
+
+@media (min-width:414px) {
+  .header {
+    padding: 8px 0;
+  }
+  .container {
+    padding: 0 24px;
+    min-width: 414px;
+    max-width: 768px;
+  }
+  .main {
+    flex: 2 0 374px;
+  }
+  .aside {
+    flex: 1 1 374px;
+  }
+  .wrapper-for-img-grandmom img {
+    object-fit: cover;
+  }
+}
+@media (min-width:414px) {
+  .header {
+    padding: 8px 0;
+  }
+  .container {
+    padding: 0 24px;
+    min-width: 414px;
+    max-width: 768px;
+  }
+}
+@media (min-width:768px) {
+  .header {
+    padding: 18px 0;
+  }
+  .container {
+    padding: 0 20px;
+    min-width: 768px;
+    max-width: 1024px;
+  }
+  .main {
+    flex: 1 0 714px;
+  }
+  .content-w-img-wrapper {
+    flex-flow: row nowrap;
+  }
+  .wrapper-for-img-grandmom {
+    height: 380px;
+    width: 294px;
+  }
+  .wrapper-for-img-grandmom img{
+    max-width: none;
+    min-width: none;
+  }
+  .wrapper-for-img-hands-together img {
+    max-width: none;
+    min-width: none;
+  }
+  .txt2-img2-wrapper {
+    flex-flow: row nowrap;
+  }
+  .main-image {
+    max-height: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header {
+    padding: 20px 0;
+  }
+  .container {
+    padding: 0 32px;
+    min-width: 1024px;
+    max-width: 1228px;
+  }
+  .header__logo {
+    margin-right: 2.9%;
+  }
+  .header__nav {
+    justify-content: space-between;
+  }
+  .header__list {
+    display:inline-flex;
+    margin-right: 20px;
+  }
+  .header__button-psycho {
+    display:inline-flex;
+  }
+  .header__button-burger {
+    display: none;
+  }
+  .main-and-aside-flex-container {
+    flex: row wrap;
+    justify-content: space-between;
+  }
+  .main {
+    flex: 0 0 714px;
+  }
+  .aside {
+    flex: 1 0 222px;
+    justify-content: flex-end;
+  }
+  .aside-card {
+    flex: 1 0 222px;
+    max-width: 282px;
+  }
+}
+
+@media (min-width: 1228px) {
+  .header {
+    padding: 20px 0;
+  }
+  .header__logo {
+    margin-right: 50px;
+  }
+  .container {
+    min-width: 1228px;
+    padding: 0 14px;
+  }
+}
